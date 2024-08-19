@@ -1,0 +1,103 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>task-1</title>
+    <style>
+      * {
+        margin: 0;
+      }
+      .port {
+        text-decoration: none;
+        color:black;
+      }
+      .portfolio {
+        background-color: blueviolet;
+        display: flex;
+        justify-content: center;
+        padding: 10px 0 10px 0;
+      }
+      nav {
+        display: flex;
+        justify-content: center;
+        background-color: rgba(0, 0, 0, 0.315);
+        align-items: center;
+        height: 100px;
+      }
+      nav ul {
+        display: flex;
+        gap: 30px;
+      }
+      nav ul li {
+        list-style: none;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: black;
+      }
+      main {
+        width: 100%;
+      }
+      #about-me,
+      #contact,
+      #projects {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 10px;
+      }
+      #about-me p {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="portfolio">
+      <a class="port" href="#">My Portfolio</a>
+    </h1>
+    <nav>
+      <ul>
+        <li><a href="#about-me">About me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <main class="main-class">
+      <section id="about-me">
+        <h1>About me</h1>
+        <p style="font-family: Arial, Helvetica, sans-serif">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
+          incidunt praesentium soluta delectus dolorem molestiae. Odio quidem
+          cum ut labore reprehenderit vitae repellendus illum ad quaerat,
+          possimus, mollitia a provident?
+        </p>
+      </section>
+      <section id="projects">
+        <h1>Projects</h1>
+        <p style="font-family: Arial, Helvetica, sans-serif">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+          vel amet consectetur harum provident, suscipit exercitationem
+          voluptatum neque iste assumenda, voluptatibus ipsa non sequi placeat
+          odio. Eligendi, eos magnam? Ducimus.
+        </p>
+      </section>
+      <section id="contact">
+        <h1>Contact</h1>
+        <p style="font-family: Arial, Helvetica, sans-serif">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos labore a
+          asperiores corrupti? Rerum provident non voluptatem placeat nulla,
+          eligendi, laborum, atque quibusdam aliquam ducimus voluptates? Placeat
+          itaque asperiores quibusdam. Lorem ipsum dolor sit amet, consectetur
+          adipisicing elit. Quo repudiandae atque rerum. In amet facilis
+          doloribus enim a voluptatibus, blanditiis magnam magni obcaecati
+          aliquam molestias id beatae autem esse iusto?Lorem ipsum dolor sit
+          amet consectetur adipisicing elit. Assumenda rem reprehenderit
+          accusamus aperiam voluptatem et labore ut nam adipisci asperiores hic
+          qui quas, cum in, laudantium sit exercitationem, nulla tempore!Lorem.
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
